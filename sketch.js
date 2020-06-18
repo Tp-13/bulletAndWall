@@ -23,11 +23,11 @@ function draw() {
     damage = ((weight)*(speed)*(speed))/((thickness)*(thickness)*(thickness))
     
     if(damage < 10){
-      bullet.shapeColor = "green";
+      wall.shapeColor = "green";
     }
     
     if(damage > 10){
-      bullet.shapeColor = "red";
+      wall.shapeColor = "red";
     }
     
 
